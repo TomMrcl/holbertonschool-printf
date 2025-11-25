@@ -26,13 +26,6 @@ is computed.
 
 ![Flowchart of _printf implementation](assets/printf_flowchart.png)
 
-**Legend:**
-
-- **Blue** – start / end of `_printf`
-- **Green** – actions (print, increment counters, move index)
-- **Orange** – decisions (e.g. `format[i] == '%' ?`)
-- **Purple** – calls to specifier handlers (`%c`, `%s`, `%%`, `%d`, `%i`)
-
 ## Files
 
 - `main.h` – header file with prototypes and struct definition  
