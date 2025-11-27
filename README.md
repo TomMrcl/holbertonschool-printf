@@ -1,4 +1,4 @@
-# holbertonschool-printf
+# Holbertonschool-Printf
 
 Reimplementation of the C standard library `printf` function.
 
