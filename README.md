@@ -38,4 +38,6 @@ is computed.
 ## Compilation
 
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format -I. _printf.c handlers_char_str.c handlers_int.c tests/main.c -o printf_test
+
+./printf_test
